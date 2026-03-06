@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import extras.Validacoes;
+
 public class App {
     public static void main(String[] args) throws Exception {
         String cep = "";
@@ -11,5 +13,7 @@ public class App {
         } else {
             System.out.println("CEP inválido.");
         }
+        System.out.println("Argumento 1: " + args[0]);
+        System.out.println("Argumento 2: " + args[1]);
     }
 }
